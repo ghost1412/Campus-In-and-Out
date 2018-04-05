@@ -1,8 +1,8 @@
 #ifndef FACULTY_H
 #define FACULTY_H
+#include "institute_member.h"
 
-
-class Faculty
+class Faculty: Institute_Member
 {
 public:
     Faculty();

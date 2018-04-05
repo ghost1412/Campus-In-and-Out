@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Security</class>
+ <widget class="QWidget" name="Security">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>411</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>130</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Enter Id</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="exitId">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>130</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exitB">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>210</y>
+       <width>80</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Enter</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QPushButton" name="priviousEntry">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>160</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Privious Entry</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addEntry">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>160</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add Entry</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addExitb">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>160</y>
+       <width>80</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add Exit</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>70</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Enter Id</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="idNoc">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>70</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="idcheck">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>230</y>
+       <width>111</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Enter</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>120</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Time</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="timec">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>120</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>170</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vehicle No</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vehiclenoc">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nan</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vehicle Color</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vehicleColorc">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>40</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nan</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>80</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="namec">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>70</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>110</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>no. People</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noPeoplec">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>110</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>160</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>gate No.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="gateNoc">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>150</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>200</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>purpose</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="puposec">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>190</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>230</y>
+       <width>59</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mobile No.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="mobileNoc">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>230</y>
+       <width>113</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveEntry">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>270</y>
+       <width>80</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Enter</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
