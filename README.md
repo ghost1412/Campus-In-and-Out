@@ -20,6 +20,8 @@ This software is a c++ GUI based program which manages who is allowed to enter i
 <b>Linux:</b>
 just add in qt
 
+<b>For More Information </b> <a href="https://github.com/ghost1412/CS223_Apr18_19/blob/master/SRS.pdf"> click here </a>
+
 <b>Contribution</b>
 
-Create a fork of the project into your own reposity. Make all your necessary changes and create a pull request with a description on what was added or removed and details explaining the changes in lines of code. If approved, project we will merge it.
+Create a fork of the project into your own repository. Make all your necessary changes and create a pull request with a description on what was added or removed and details explaining the changes in lines of code. If approved, project we will merge it.
